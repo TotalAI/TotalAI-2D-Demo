@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182993d50a3824848983e2f947e0c837, type: 3}
+  m_Name: UtilityAIDT
+  m_EditorClassIdentifier: 
+  plannerTypes:
+  - {fileID: 11400000, guid: b643289bf17f05e4b8df2b088d25214f, type: 2}
+  defaultDriveType: {fileID: 11400000, guid: 93ad7e7de098d5747963306c322c7af4, type: 2}

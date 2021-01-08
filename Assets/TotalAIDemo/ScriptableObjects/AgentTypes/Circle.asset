@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e53b3a1b8b5e474a84c157ca8f32922, type: 3}
+  m_Name: Circle
+  m_EditorClassIdentifier: 
+  sideEffectValue: 1
+  typeCategories:
+  - {fileID: 11400000, guid: 6dfafab28694bd94298abcaaa30dd73f, type: 2}
+  interactionSpotType: {fileID: 11400000, guid: e883b08ae6072f34b860a82fa1ebd645, type: 2}
+  spotTypeActionTypeMappings: []
+  prefabVariants: []
+  ghostPrefabs: []
+  requiresFlatLand: 0
+  rotateToTerrain: 0
+  maxSlopePlacement: 0
+  maxDistanceAsInput: 1
+  defaultAttributes:
+  - type: {fileID: 11400000, guid: eefd7ece406fef64e974219d62fce11e, type: 2}
+    oneFloatData:
+      floatValue: 0
+    minMaxFloatData:
+      floatValue: 20
+      min: 0
+      max: 20
+    enumData:
+      enumIndexValue: 0
+  - type: {fileID: 11400000, guid: c289b32f82a16c9499da410b76a4cd53, type: 2}
+    oneFloatData:
+      floatValue: 0
+    minMaxFloatData:
+      floatValue: 2
+      min: 0
+      max: 5
+    enumData:
+      enumIndexValue: 0
+  defaultTags: []
+  defaultInventoryType: {fileID: 11400000, guid: 07c8429cb7c01de4780f436f9e2e9320, type: 2}
+  canBeInInventorySlots: []
+  transformMappings: []
+  itemAttributeTypeModifiers: []
+  itemActionSkillModifiers: []
+  itemSoundEffects: []
+  itemVisualEffects: []
+  inventorySlots: []
+  defaultInventory: []
+  defaultEntityModifiers: []
+  defaultMovementType: {fileID: 11400000, guid: eea456f9a8124324582db4a043d3ce50, type: 2}
+  defaultAnimationType: {fileID: 11400000, guid: 3a3ae41688b8bff4bb1038049e475714, type: 2}
+  useAnimatorOverrides: 0
+  idleLayer: 0
+  idleState: 
+  defaultUtilityFunction: {fileID: 11400000, guid: 8414a3e56d690cb43b1295e26c6eec29, type: 2}
+  defaultMemoryType: {fileID: 11400000, guid: 8c33b591a7fffb2488e7239b3a40a8a8, type: 2}
+  defaultDeciderType: {fileID: 11400000, guid: b973c1d3fe7425849bc660ac3eb1e51d, type: 2}
+  defaultHistoryType: {fileID: 11400000, guid: bc181ef74a64d2b4cae8b5c7fb9796d8, type: 2}
+  defaultNoPlansMappingType: {fileID: 0}
+  defaultNoPlansDriveType: {fileID: 0}
+  maxNumDetectedEntities: 100
+  defaultSensorTypes:
+  - {fileID: 11400000, guid: 1ced811efc1848c46bdb167f680c344c, type: 2}
+  defaultActions:
+  - actionType: {fileID: 11400000, guid: 2ebb7af29803a35499ff676a591eb696, type: 2}
+    level: 0
+    changeProbability: 0
+    changeAmount: 0
+  - actionType: {fileID: 11400000, guid: e0ce14ea67bb799489ded58729031702, type: 2}
+    level: 0
+    changeProbability: 0
+    changeAmount: 0
+  defaultDrives:
+  - driveType: {fileID: 11400000, guid: 93ad7e7de098d5747963306c322c7af4, type: 2}
+    startingLevel: 0
+    overrideDriveType: 0
+    changePerGameHour: 0
+    rateTimeCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    maxTimeCurve: 0
+    minTimeCurve: 0
+  animatorOverrides: []
+  animatorOverridesConditions: []
